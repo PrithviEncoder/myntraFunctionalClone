@@ -298,8 +298,7 @@ header {
     .container {
         width: 98%;
         margin: 40px 1%;
-        display: flex;
-        flex-wrap: wrap;
+      
         gap: 70px 10px;
         justify-content: center;
 
@@ -318,8 +317,6 @@ header {
     .btn {
         width: 90px;
         border-radius: 5px;
-        background-color: #ff3f6c;
-        color: white;
         padding: 5px 4px;
         margin-left: 35px;
         margin-bottom: 8px;
@@ -332,7 +329,6 @@ header {
         width: 0px;
         min-width: 0px;
         height: 50px;
-        display: flex;
         align-items: center;
         margin: auto 5px;
 
