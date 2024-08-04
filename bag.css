@@ -21,10 +21,6 @@
     align-items: center;
     overflow: hidden;
     column-gap: 10px;
-
-
-
-
 }
 
 .bagImg {
@@ -214,14 +210,6 @@ width: 225px;
     background-color: #ff3f6c;
     font-weight: 600;
     color: white;
-}
-.empty-bag{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    align-items:center;
-}
-.shop{
     text-transform:uppercase;
     font-weight: 600;
     display: flex;
@@ -229,9 +217,79 @@ width: 225px;
     align-items: center;
     /* text-decoration: none; */
 }
+.empty-bag{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items:center;
+    
+}
+
 .shop-btn{
     text-decoration: none;
 }
 .shop-more{
     margin-left:23px;
+}
+
+@media (max-width:500px){
+    .bagContainer {
+        width: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 40px 10%;
+        /* border: 1px solid black; */
+    }
+    .cardContainer {
+        width: 75%;
+        /* border: 1px dotted black; */
+        margin: 20px;
+    
+    }
+    .shop{
+        width: 120px;
+    }
+    .shop-more{
+        margin-left:20px;
+    }
+    .bagcard {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+.bagImg {
+    height: 150px;
+    width: 120px;
+    
+}
+
+.bagimage {
+    height: 100%;
+    width: 100%;
+
+    /* height: 100%; */
+
+}
+
+.cancel {
+
+    margin: 0;
+    margin-left: 220px;
+    margin-top: 10px;
+    
+}
+.priceContainer {
+    position:static;
+
+    margin-top:2px;
+    width: 250px;
+    height: 300px;
+    min-width:250px;
+    border: 1px solid rgb(224, 220, 220);
+}
+
+
 }
